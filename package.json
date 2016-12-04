@@ -15,6 +15,9 @@
     "code": "3.x.x",
     "lab": "10.x.x"
   },
+  "browser": {
+    "crypto": false
+  },
   "scripts": {
     "test": "lab -a code -t 100 -L",
     "test-cov-html": "lab -a code -t 100 -L -r html -o coverage.html"
